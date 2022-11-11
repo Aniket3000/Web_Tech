@@ -20,13 +20,13 @@ class BlueWhale implements Mammals, MarineAnimals {
     {
         System.out.println("I belong to both the categories: Mammals as well as Marine Animals");
     }
- 
+}
 
-    public static void main(String args[])
-    {
 
-        BlueWhale bw = new BlueWhale();
-       bw.print();
-
-    }
+public class Main
+{
+	public static void main(String[] args) {
+		BlueWhale bw = new BlueWhale();
+		bw.print();
+	}
 }
